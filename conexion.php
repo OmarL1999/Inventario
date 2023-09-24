@@ -1,9 +1,9 @@
 <?php
 
-$host = 'localhost';
+$host = 'containers-us-west-150.railway.app';
 $user = 'root';
-$password = '';
-$db = 'facturacion';
+$password = 'Imz8JAP9te0MZBodWv95';
+$db = 'railway';
 
 $conection= @mysqli_connect($host,$user,$password,$db);
 
