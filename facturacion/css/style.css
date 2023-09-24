@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+h3{
+    font-family: 'Arial';
+    font-size: 14pt;
+    letter-spacing: 1px;
+    width: 100%;
+    background: #2980b9;
+    padding: 10px;
+    color: #AAABA9;
+    text-align: center;
+    text-transform: uppercase;
+}
+#container{
+    background: #0d2a25;
+    width: 100%;
+    height: 100vh;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -flex;
+    justify-content: center;
+    align-items: center;
+}
+#container form{
+    background: #1a6d5f;
+    width: 400px;
+    padding: 10px;
+}
+#container form img{
+   margin: 15px auto;
+   text-align: center;
+   display: block;
+}
+#container form input{
+    width: 90%;
+    padding: 5px;
+    font-size: 16pt;
+    display: block;
+    margin: 25px auto;
+    border-radius: 5px;
+    border: 1px solid #AAABA9;
+    text-align: center;
+}
+#container form input[type="submit"]{
+     background: #66E700;
+     padding: 1px;
+     color: #000000;
+     letter-spacing: 1px;
+     border: 0;
+     cursor: pointer;
+}
